@@ -40,6 +40,7 @@ public class FeesActivity extends AppCompatActivity implements Info {
 
 
         loadingDialog = new Dialog(this);
+
         DialogUtils.initLoadingDialog(loadingDialog);
         initRv();
         initData();
